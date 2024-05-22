@@ -6,21 +6,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 93894223
-  numberOfFiles: 146
-  numberOfSubjects: 11
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured: []
 citation: Silkuniene, Giedre (2024) Sine wave neuron stimulation 1 (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001032/draft
 contributor:
