@@ -2,48 +2,63 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001032
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 90028823
-  numberOfFiles: 140
-  numberOfSubjects: 11
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: Mus musculus - House mouse
-    schemaKey: SpeciesType
-  variableMeasured: []
-citation: Silkuniene, Giedre (2024) Sine wave neuron stimulation 1 (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001032/draft
+citation: Silkuniene, Giedre; Semenov, Iurii; Pakhomov, Andrei (2024) Sine wave neuron
+  stimulation 1 (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001032/draft
 contributor:
 - affiliation: []
   email: giedre.silkuniene@gmail.com
+  identifier: 0000-0001-8436-9718
   includeInCitation: true
   name: Silkuniene, Giedre
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- identifier: 0000-0002-0302-1355
+  includeInCitation: true
+  name: Semenov, Iurii
+  schemaKey: Person
+- identifier: 0000-0003-3816-3860
+  includeInCitation: true
+  name: Pakhomov, Andrei
+  roleName:
+  - dcite:ProjectLeader
+  schemaKey: Person
+- awardNumber: 5R21EY034803
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-05-21T17:22:23.862583+00:00'
 description: 'batch 1
 
   '
+ethicsApproval: []
 id: DANDI:001032/draft
 identifier: DANDI:001032
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001032/versions/draft/assets/
 name: Sine wave neuron stimulation 1
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001032/draft
 version: draft
+wasGeneratedBy:
+- identifier: 5R21EY034803
+  name: Next Generation Temporal Interference Stimulation for Non-Invasive Neuromodulation
+  schemaKey: Project
