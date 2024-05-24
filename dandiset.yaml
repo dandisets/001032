@@ -50,9 +50,11 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-21T17:22:23.862583+00:00'
-description: 'batch 1
-
-  '
+description: This experimental series aimed to characterize the triggering of action
+  potentials (APs) in neurons using sine waves and modulated sine waves at varying
+  frequencies. The experiments were conducted on E18 Sprague Dawley rat hippocampal
+  neurons (BrainBits, Springfield, IL), employing the voltage-sensitive dye FluoVolt
+  (Thermo Fisher Scientific, Waltham, MA) as the AP reporter.
 ethicsApproval: []
 id: DANDI:001032/draft
 identifier: DANDI:001032
